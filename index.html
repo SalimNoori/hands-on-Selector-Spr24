@@ -48,6 +48,7 @@
             <div id="id-div">Inside my-div</div>
         </fieldset>
 
+
         <fieldset>
             <legend><a id="id">class</a></legend>
             <p>classes can be applied to more than one item on a page</p>
@@ -55,10 +56,23 @@
             <pre><code>class="my-list"</code></pre>
             <p>Here's how the CSS is applied to the element:</p>
             <pre><code>div#id-div{
-                li.my-list{
-                    background-color:rgb(196, 196, 160);
-                }
-}</code></pre>
+               background-color:rgb(196, 196, 160);
+            }</code></pre>
+
+
+    <p>Here's what it looks like:</p>
+    <div>
+        <ul>
+            <li class="my-list"> I'm in a a li with a class my my-list</li>
+            <li class="my-list"> I'm in a a li with a class my my-list</li>
+            <li class="my-list"> I'm in a a li with a class my my-list</li>
+         </ul>
+
+
+
+    </div>
+    <div id="id-div">Inside my-div</div>
+</fieldset>
 
          <fieldset>
             <legend><a id="id">compound</a></legend>
@@ -67,7 +81,7 @@
             <pre><code>id="id-div"</code></pre>
             <p>Here's how the CSS is applied to the element:</p>
             <pre><code>li.new-list,div#new-div{
-    background-color:orange;
+                background-color:rgb(196, 196, 160);
 }</code></pre>
 
 
